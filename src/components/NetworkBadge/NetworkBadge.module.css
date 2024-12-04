@@ -1,0 +1,23 @@
+.networkBadge {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #202225; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 5px 10px;
+    border-radius: 20px; /* Rounded edges */
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    margin-right: 1rem;
+  }
+  
+.networkIcon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; /* Makes the icon circular */
+}
+
+.networkName {
+    white-space: nowrap; /* Prevents text wrapping */
+}

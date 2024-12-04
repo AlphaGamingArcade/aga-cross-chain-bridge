@@ -1,0 +1,51 @@
+.card {
+  background-color: #2d2f3b; /* Dark background for the card */
+  border-radius: 10px; /* Rounded corners */
+  color: #ffffff; /* White text */
+  font-family: "Arial", sans-serif; /* Font */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.amountRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0.5rem;
+}
+
+.amount {
+  font-size: 1.2rem; /* Larger font for the amount */
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.token {
+  font-size: 1rem; /* Slightly smaller font for the token */
+  color: #a0ffc0; /* Light green to distinguish the token */
+  font-weight: 800;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.detailRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.detailIcon {
+  font-size: 16px; /* Icon size */
+  color: #a0a0a0; /* Slightly lighter color for icons */
+}
+
+.detailText {
+  font-size: 14px;
+  color: #d0d0d0; /* Neutral color for detail text */
+}
+  
